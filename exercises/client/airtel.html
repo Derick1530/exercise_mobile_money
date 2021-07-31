@@ -14,30 +14,53 @@
     />
   </head>
   <body>
-    <div class="container box">
+
+    <div class="container box box-one" >
       <h2 style="text-align: center">Portail</h2>
-      <ul id="menu">
-        <li class="one" id="a">Mobile money</li>
+      <ul class="menu">
+        <li class="one" id="mobileMoney">Mobile money</li>
         <li id="b">Airtime</li>
         <li id="c">Balance Check</li>
       </ul>
     </div>
 
-    <div class="container box">
+    <div class="container box box-two hidden">
+
       <h3 style="text-align: center">Mobile money</h3>
-      <ul id="menu">
-        <li class="one" id="a">Send money</li>
+      <ul class="menu">
+        <li class="one" id="sendMoney">Send money</li>
         <li id="b">Withdraw</li>
-        <li id="c">Check Balnce</li>
+        <li id="c">Check Balance</li>
+        <button id="btn-back-one">Go Back</button>
       </ul>
     </div>
 
-    <div class="container box">
-      <h3 style="text-align: center">Send money</h3>
+    <div class="container box box-three hidden" >
+      <h3 style="text-align: center">Send Money</h3>
       <ul class="">
-         <input type="text" maxlength="4">
-         
+        <li>
+          <label for="number">number</label>
+          <input type="number" name="amount" id="" placeholder="079102320"/>
+        </li>
+        <li>
+          <label for="amount">amount</label>
+          <input type="number" name="amount" id="" placeholder="UGX" />
+        </li>
+        <li>
+          <label for="password">password</label>
+          <input
+            type="password"
+            name="password"
+            maxlength="4"
+            placeholder="****"
+          />
+        </li>
+        <li><button>Submits</button></li>
+        <button id="btn-back-two">Go Back</button>
       </ul>
+
     </div>
+
+    <script src="App.js"></script>
   </body>
 </html>
