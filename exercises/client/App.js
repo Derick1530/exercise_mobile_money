@@ -31,7 +31,7 @@ function sendMoneyHandler(){
 function airtime(){
     
 }
-function c(){
+function balanceCheck(){
     
 }
 
