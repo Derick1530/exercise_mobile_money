@@ -16,17 +16,19 @@ function portailThreeHandler(){
     
     }
 
-function sendMoneyHandler(){
-    const showElement = document.querySelector('.box-three');
-    showElement.classList.remove('hidden');
-}
+
 
 function mobileMoneyHandler(){
 const showElement = document.querySelector('.box-two');
 showElement.classList.remove('hidden');
 
 }
-function b(){
+
+function sendMoneyHandler(){
+    const showElement = document.querySelector('.box-three');
+    showElement.classList.remove('hidden');
+}
+function airtime(){
     
 }
 function c(){
